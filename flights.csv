@@ -1,0 +1,15 @@
+PK101,1,Dubai,220,International,2025-10-01
+PK202,1,London,180,International,2025-10-05
+PK301,2,Paris,150,International,2025-10-02
+PK302,2,Frankfurt,95,International,2025-10-08
+PK401,3,Mumbai,310,International,2025-10-03
+PK402,3,Karachi,275,International,2025-10-12
+PK501,4,Bangkok,190,International,2025-10-04
+PK502,4,Tokyo,205,International,2025-10-15
+PK601,5,Melbourne,160,Domestic,2025-10-06
+PK602,5,Brisbane,140,Domestic,2025-10-10
+PK103,1,Chicago,130,Domestic,2025-11-01
+PK203,1,Miami,145,Domestic,2025-11-05
+PK303,2,Manchester,88,Domestic,2025-11-02
+PK403,3,Riyadh,200,International,2025-11-03
+PK503,4,Hong Kong,230,International,2025-11-04

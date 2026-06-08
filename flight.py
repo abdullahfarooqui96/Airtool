@@ -27,6 +27,7 @@ class Flight:
         self.destination = destination
         self.passengers = passengers
         self.flight_type = flight_type
+        self.date = date
 
     def display_info(self):
         """Display formatted flight information to the console."""
@@ -41,7 +42,7 @@ class Flight:
         """Return a one-line summary string for the flight."""
         return (
             f"{self.flight_number} -> {self.destination} "
-            f"({self.passengers} pax, {self.flight_type}, {self.date})
+            f"({self.passengers} pax, {self.flight_type}, {self.date})"
         )
 
     @classmethod
@@ -57,6 +58,8 @@ class Flight:
             if passengers < 0:
                 raise ValueError(f"Invalid passenger count: {passengers}")
             airport_id = int(row[1])
+        except ValueError as error:
+            raise ValueError(f"Invalid flight data in row: {error}") from error
 
         return cls(
             flight_number=row[0].strip(),

@@ -9,6 +9,14 @@ The file has 10 total sections including cache. Help for AI was taken but the co
 
 The code is open source and free to use for everyone thanks :) 
 
+-> Using the tool 
+1. download the zip 
+2. make sure you have python and visual studio code installed 
+3. extract the zip in a folder
+4. open and run the main.py file
+5. enjoy my final project hopefully you like it :) 
+
+
 If the user has any issues or questions the user can contact the creator at
 abdullah.farooqui.work@gmail.com
 
